@@ -5,10 +5,10 @@
         <vendorid>0x04b4</vendorid>
     </devicevendordef>
 
-    <deviceroductdef>
+    <deviceproductdef>
         <productname>MINILA_us67key</productname>
         <productid>0x0101</productid>
-    </deviceroductdef>
+    </deviceproductdef>
 
     <item>
         <name>For FILCO MINILA_us67key</name>
