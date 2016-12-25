@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <root>
-    <devicevendordef>
-        <vendorname>FILCO</vendorname>
-        <vendorid>0x04b4</vendorid>
-    </devicevendordef>
+  <devicevendordef>
+    <vendorname>FILCO</vendorname>
+    <vendorid>0x04b4</vendorid>
+  </devicevendordef>
 
-    <deviceproductdef>
-        <productname>MINILA_us67key</productname>
-        <productid>0x0101</productid>
-    </deviceproductdef>
+  <deviceproductdef>
+    <productname>MINILA_us67key</productname>
+    <productid>0x0101</productid>
+  </deviceproductdef>
 
+  <item>
+    <name>For FILCO MINILA_us67key</name>
     <item>
-        <name>For FILCO MINILA_us67key</name>
-        <item>
-            <identifier>private.swap_option_l_and_command_l_for_FILCO_MINILA_us67key</identifier>
-            <name>Swap Alt(Option)_L and Win(Command_L) with 英数</name>
-            <device_only>DeviceVendor::FILCO, DeviceProduct::MINILA_us67key</device_only>
-            <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
-            <autogen>__KeyOverlaidModifier__ KeyCode::OPTION_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU</autogen>
-        </item>
-        <item>
-            <identifier>private.swap_option_r_and_application_for_FILCO_MINILA_us67key</identifier>
-            <name>Swap Alt(Option)_R and Application with かな</name>
-            <device_only>DeviceVendor::FILCO, DeviceProduct::MINILA_us67key</device_only>
-            <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::OPTION_R</autogen>
-            <autogen>__KeyOverlaidModifier__ KeyCode::OPTION_R, KeyCode::COMMAND_R, KeyCode::JIS_KANA</autogen>
-        </item>
+      <identifier>private.swap_option_l_and_command_l_for_FILCO_MINILA_us67key</identifier>
+      <name>Swap Alt(Option)_L and Win(Command_L) with 英数</name>
+      <device_only>DeviceVendor::FILCO, DeviceProduct::MINILA_us67key</device_only>
+      <autogen>__KeyToKey__ KeyCode::COMMAND_L, KeyCode::OPTION_L</autogen>
+      <autogen>__KeyOverlaidModifier__ KeyCode::OPTION_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU</autogen>
     </item>
+    <item>
+      <identifier>private.swap_option_r_and_application_for_FILCO_MINILA_us67key</identifier>
+      <name>Swap Alt(Option)_R and Application with かな</name>
+      <device_only>DeviceVendor::FILCO, DeviceProduct::MINILA_us67key</device_only>
+      <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::OPTION_R</autogen>
+      <autogen>__KeyOverlaidModifier__ KeyCode::OPTION_R, KeyCode::COMMAND_R, KeyCode::JIS_KANA</autogen>
+    </item>
+  </item>
 </root>
