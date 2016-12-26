@@ -26,5 +26,11 @@
       <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::OPTION_R</autogen>
       <autogen>__KeyOverlaidModifier__ KeyCode::OPTION_R, KeyCode::COMMAND_R, KeyCode::JIS_KANA</autogen>
     </item>
+    <item>
+      <identifier>private.disable_keypad_clear_for_FILCO_Majestouch</identifier>
+      <name>Disable KEYPAD_CLEAR</name>
+      <device_only>DeviceVendor::FILCO, DeviceProduct::Majestouch</device_only>
+      <autogen>__KeyToKey__ KeyCode::KEYPAD_CLEAR, KeyCode::VK_NONE</autogen>
+    </item>
   </item>
 </root>
